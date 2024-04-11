@@ -1,0 +1,33 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.color-palette {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.color-picker {
+  width: 50%;
+}
+
+.selected-colors {
+  width: 50%;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.selected-color {
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+}

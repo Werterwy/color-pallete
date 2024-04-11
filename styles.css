@@ -1,0 +1,113 @@
+/* container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* color-palette */
+.color-palette {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+.color-picker {
+    width: 100%;
+    margin-top: 15px
+}
+
+.selected-colors {
+    width: 100%;
+}
+
+.HEX-code {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+    .HEX-code:hover {
+        font-weight: bold;
+        font-size: 30px;
+    }
+/* color */
+.color {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.selected-color {
+    margin-left: 65px;
+    margin-top: 15px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* color-controls  */
+
+.color-controls {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+    .color-controls label {
+        display: block;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    .color-controls input[type="range"] {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .color-controls output {
+        color: darkgrey;
+        margin-left: 10px;
+    }
+
+
+
+    .color-controls button:hover {
+        background-color: #0056b3;
+    }
+
+/*button-group*/
+
+.button-group {
+    display: flex;
+    /*justify-content: space-around;*/
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+
+    .button-group button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+        border: none;
+        background-color: #0075ff;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+
+        .button-group button:hover {
+            background-color: #0056b3;
+        }
